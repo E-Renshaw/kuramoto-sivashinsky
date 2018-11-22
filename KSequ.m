@@ -1,4 +1,3 @@
-tic
 % A plot of the Kuramoto-Sivashinsky equation
 %
 % u_t = -u*u_x - u_xx - u_xxxx, periodic boundary conditions on [0,32*pi]
@@ -55,4 +54,3 @@ material([0.30 0.60 0.60 40.00 1.00]);
 title('The Kuramoto Sivashinsky equation')
 xlabel('t'); ylabel('x')
 colorbar
-timeElapsed = toc
